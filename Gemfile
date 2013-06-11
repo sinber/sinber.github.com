@@ -17,3 +17,4 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.3.3'
+gem 'fancy-buttons','~> 1.2.0'
