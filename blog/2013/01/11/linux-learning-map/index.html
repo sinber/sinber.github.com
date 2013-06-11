@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Sinber's Blog</title>
+  <title>嵌入式Linux操作系统学习规划 - Sinber's Blog</title>
   <meta name="author" content="sinber">
 
   
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://sinber.github.com/">
+  <link rel="canonical" href="http://sinber.github.com/blog/2013/01/11/linux-learning-map/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -72,16 +72,13 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2013/01/11/linux-learning-map/">嵌入式Linux操作系统学习规划</a></h1>
+      
+        <h1 class="entry-title">嵌入式Linux操作系统学习规划</h1>
       
     
     
@@ -105,7 +102,7 @@
   </header>
 
 
-  <div class="entry-content"><p>ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标：</p>
+<div class="entry-content"><p>ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标：</p>
 
 <p>（1） 掌握主流嵌入式微处理器的结构与原理（初步定为arm9）
 （2） 必须掌握一个嵌入式操作系统 （初步定为uclinux或linux,版本待定）
@@ -223,24 +220,16 @@ D、DSP技术：Digital Signal Process，DSP处理器通过硬件实现数字信
 
 <p>原文：<a href="http://www.openxid.com/?p=2040">http://www.openxid.com/?p=2040</a></p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2013/01/10/blog-start/">新的一年开始写博客</a></h1>
+  
+
+<span class="byline author vcard">Posted by <span class="fn">sinber</span></span>
+
       
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -252,109 +241,30 @@ D、DSP技术：Digital Signal Process，DSP处理器通过硬件实现数字信
   
 
 
-<time datetime="2013-01-10T18:50:00+08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-01-11T18:33:00+08:00" pubdate data-updated="true">Jan 11<span>th</span>, 2013</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>说来惭愧，工作三年多写的博客少之又少，以后要多写多记录了，下面作为在github上的第一篇博客，记录的是利用Octopress在github上创建博客站点的全过程。</p>
-
-<h2>一、操作步骤</h2>
-
-<p>1.首先是要有一个github账号，没有的话到官网上<a href="https://github.com/" title="点击注册">注册</a>。然后登录github创建一个名为username.github.com的版本库，类似http://username.github.com，当然这中间涉及到了github的使用、本机安装git工具以及在github上关联自己的密钥等步骤，这里就不多说了，不会的话可以自己搜一下。</p>
-
-<p>2.安装ruby环境，具体安装步骤<a href="http://ruby-china.org/wiki/install_ruby_guide" title="去看看">移步这里</a>。</p>
-
-<p>3.安装部署Octopress，也可参考<a href="http://octopress.org/docs/setup/" title="走起">官方文档</a>:<br/>
-建立一个放置Octopress的目录，这里是Ruby文件夹，在终端中使用git工具clone Octopress程序到本地</p>
-
-<pre><code>$cd ~/Ruby/
-$git clone git://github.com/imathis/octopress.git username.github.com
-$cd ~/Ruby/user-id.github.com
-$bundle install   //安装相关的gem包
-$rake install    //生成相应的模板
-</code></pre>
-
-<p>4.创建你的第一篇博客：</p>
-
-<pre><code>$rake setup_github_pages    //配置github项目地址
-//输入你的git源 git://github.com/username/username.github.com.git
-
-$rake new_post["我的博客"]   //建立新文章，文章存放在source/_post里面，格式为Markdown的
-</code></pre>
-
-<p>然后使用你熟悉的文本编辑器打开Markdown格式的文件，这里推荐使用Sublime Text 2，通过安装MarkdownEditing插件可以很方便的编辑Markdown文件。具体安装配置步骤<a href="http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/">参考这里</a></p>
-
-<p>5.编辑完成后先在本地预览，没问题的话就可以发布到github上了</p>
-
-<pre><code>$rake preview  //开启站点预览，动态生成， http://127.0.0.1:4000
-$rake generate  //生成静态文件
-$rake gen_deploy  //生成静态并部署到github
-</code></pre>
-
-<p>6.最后别忘了将代码提交到github上备份</p>
-
-<pre><code>$git add .
-$git commit -m "保存source文件夹，文章源文件"
-$git push origin source   //建立sourch分支并保存
-</code></pre>
-
-<p>7.然后就可以在浏览器输入你的github博客地址http://username.github.com访问你刚发表的博客了</p>
-
-<h2>二、优化提高</h2>
-
-<p>1.添加评论功能</p>
-
-<p>作为博客站点如果缺少了与读者的交互那就没有意义了，这里我们可以借助第三方社会化评论工具，可参考博文<a href="http://hswg.info/blog/2013/01/09/using-social-comment/">在Otcopress使用社会化评论</a>，这里我也采用了博主使用的“多说”。</p>
-
-<p>添加方法很简单，首先到多说网站上注册账户，然后在source/_includes/post/sharing.html文件末尾添加网站上提供的一段代码既可，具体效果见本文下方。</p>
-
-<p>2.添加统计工具</p>
-
-<p>Otcopress本身提供了Google Analytics统计工具，只需要在_config.yml中找到google_analytics_tracking_id这一项，填写你的id既可</p>
-
-<pre><code># Google Analytics
-google_analytics_tracking_id: 这里填写你的id
-</code></pre>
-
-<p>当然也可以使用第三方统计工具，本博使用的是clustrmaps，添加方法也很简单，首先是到clustrmaps网站注册账户，然后获取网站提供的代码，在source/<em>includes/asides/目录下新建一个html文件，命名为clustrmaps.html，然后在</em>config.yml中找到default_asides配置项，在末尾添加asides/clustrmaps.html即可</p>
-
-<pre><code>default_asides: [asides/recent_posts.html, ..., asides/clustrmaps.html]
-</code></pre>
-
-<p>效果如本博右侧所示。</p>
-
-<p>3.修改默认模板的CSS样式</p>
-
-<p>默认的css样式是在source/stylesheets/screen.css，打开这个css文件，在Firefox下配合firebug可以很方便的修改调试成你喜欢的样式。</p>
-
-<h2>三、后记</h2>
-
-<p>1.github虽然没有流量限制，但默认的每个repo的大小为300M，所以尽量少使用图片，视频等多媒体文件。</p>
-
-<p>2.在你写博客之前，最好先抽几分钟时间了解下<a href="http://markdown.tw/">markdown的语法</a>，以便写出更美观的博文。</p>
-
-<p>3.本文参考了一些博文，在文中均有提到，在此向各位博主致谢。</p>
-
-<p>4.有任何问题欢迎指正，或者在下面的评论中留言交流。</p>
-
-<p>参考博文：
-1.<a href="http://voodeng.com/blog/2012/09/02/octopress-on-github/">Github Page 上使用 Octopress http://voodeng.com/blog/2012/09/02/octopress-on-github/</a></p>
+      <div class="sharing">
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/blog/2013/01/10/blog-start/" title="Previous Post: 新的一年开始写博客">&laquo; 新的一年开始写博客</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -395,6 +305,7 @@ google_analytics_tracking_id: 这里填写你的id
 </section>
   
 </aside>
+
 
     </div>
   </div>
