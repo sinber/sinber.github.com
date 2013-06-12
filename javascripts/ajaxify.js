@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$('#load').remove();
 		$('#wrapper').append('<span id="load">LOADING...</span>');
 		$('#load').fadeIn('fast');
-		window.location.hash = $(this).attr('href').substr(0,$(this).attr('href').length-5);
+		//window.location.hash = $(this).attr('href').substr(0,$(this).attr('href').length-5);
 		function loadContent() {
 			$('#toload').load(toLoad,showNewContent())
 		}
