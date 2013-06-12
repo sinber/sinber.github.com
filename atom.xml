@@ -4,7 +4,7 @@
   <title><![CDATA[Sinber's Blog]]></title>
   <link href="http://sinber.github.com/atom.xml" rel="self"/>
   <link href="http://sinber.github.com/"/>
-  <updated>2013-06-11T18:11:26+08:00</updated>
+  <updated>2013-06-12T11:13:07+08:00</updated>
   <id>http://sinber.github.com/</id>
   <author>
     <name><![CDATA[sinber]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[嵌入式Linux操作系统学习规划]]></title>
-    <link href="http://sinber.github.com/blog/2013/01/11/linux-learning-map/"/>
+    <link href="http://sinber.github.com/blog/linux-learning-map/"/>
     <updated>2013-01-11T18:33:00+08:00</updated>
-    <id>http://sinber.github.com/blog/2013/01/11/linux-learning-map</id>
+    <id>http://sinber.github.com/blog/linux-learning-map</id>
     <content type="html"><![CDATA[<p>ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标：</p>
 
 <p>（1） 掌握主流嵌入式微处理器的结构与原理（初步定为arm9）
@@ -37,6 +37,9 @@
 （2）这方面的企业数量要远少于企业计算类企业。
 （3）有少数公司经常要硕士以上的人搞嵌入式，主要是基于嵌入式的难度。但大多数公司也并无此要求，只要有经验即可。
 （4）平台依托强，换平台比较辛苦。</p>
+
+<!--more-->
+
 
 <p>兴趣的由来：</p>
 
@@ -140,9 +143,9 @@ D、DSP技术：Digital Signal Process，DSP处理器通过硬件实现数字信
   
   <entry>
     <title type="html"><![CDATA[新的一年开始写博客]]></title>
-    <link href="http://sinber.github.com/blog/2013/01/10/blog-start/"/>
+    <link href="http://sinber.github.com/blog/blog-start/"/>
     <updated>2013-01-10T18:50:00+08:00</updated>
-    <id>http://sinber.github.com/blog/2013/01/10/blog-start</id>
+    <id>http://sinber.github.com/blog/blog-start</id>
     <content type="html"><![CDATA[<p>说来惭愧，工作三年多写的博客少之又少，以后要多写多记录了，下面作为在github上的第一篇博客，记录的是利用Octopress在github上创建博客站点的全过程。</p>
 
 <h2>一、操作步骤</h2>
@@ -160,6 +163,9 @@ $cd ~/Ruby/user-id.github.com
 $bundle install   //安装相关的gem包
 $rake install    //生成相应的模板
 </code></pre>
+
+<!--more-->
+
 
 <p>4.创建你的第一篇博客：</p>
 

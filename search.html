@@ -3,10 +3,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Blog Archives - Sinber's Blog</title>
+	<title>Sinber's Blog</title>
     <meta name="author" content="sinber">
     
-	<meta name="description" content=" 2013 嵌入式Linux操作系统学习规划 Jan 11 Comments 新的一年开始写博客 Jan 10 blog Comments ">
+	<meta name="description" content="Search Results $('#search_results').tapir({ 'token': '', 'complete' : function() { document.getElementById('search_loading').style.display="none &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -78,47 +78,21 @@
 <div id="toload">
 <!-- begin toload --> 
     <div id="content" class="inner">
-        
-	
+        <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/images/loading.gif"></center>
+</div>
 
-
-	
-	
-	<section class="archives"><h1 class="year">2013</h1>
-
-<article>
-  <h2 class="title"><a href="/blog/linux-learning-map/">嵌入式Linux操作系统学习规划</a></h2>
-	<div class="meta">
-		<span class="date">Jan 11</span>
-		<span class="tags">
-
-</span>
-	    
-	    <span class="comments"><a href="/blog/linux-learning-map/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
-
-
-	
-
-
-<article>
-  <h2 class="title"><a href="/blog/blog-start/">新的一年开始写博客</a></h2>
-	<div class="meta">
-		<span class="date">Jan 10</span>
-		<span class="tags">
-
-
-	<a class='category' href='/blog/categories/blog/'>blog</a>
-
-
-</span>
-	    
-	    <span class="comments"><a href="/blog/blog-start/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
+<script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
+</div>
+<script>
+         $('#search_results').tapir({
+             'token': '',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
 
 
     </div>

@@ -1,94 +1,99 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Sinber's Blog</title>
-  <meta name="author" content="sinber">
+	<meta charset="utf-8">
+	<title>Sinber's Blog</title>
+    <meta name="author" content="sinber">
+    
+	<meta name="description" content="Published on: Jan 11th, 2013 Tags: ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标： （1） 掌握主流嵌入式微处理器的结构与原理（初步定为arm9）
+（2） 必须掌握一个嵌入式操作系统 （初步定为uclinux或linux,版本待定 &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <meta name="description" content="ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标： （1） 掌握主流嵌入式微处理器的结构与原理（初步定为arm9）
-（2） 必须掌握一个嵌入式操作系统 （初步定为uclinux或linux,版本待定）
-（3） 必须熟悉嵌入式软件开发流程并至少做一个嵌入式软件项目。 &hellip;">
-  
+	<link href="/atom.xml" rel="alternate" title="Sinber's Blog" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.ico" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  
-  <link rel="canonical" href="http://sinber.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Sinber's Blog" type="application/atom+xml">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
 
-  
+    <!-- remove or comment it to disable ajaxification -->   
+    <script src="/javascripts/ajaxify.js"></script>
+   
+    
+    
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">mob</div>
-  	<div id="logoRight">}</div>
-  	<div class="clear"></div>
-  </div>
-  <h1><a href="/">Sinber's Blog</a></h1>
+
+<body>
+    <div id="wrapper">
+    <header id="header" class="inner"><!-- for more effects see _animate.scss -->
+<h1 class="animated bounceInDown">
+    <div id="headerbg">
+        sinber
+    </div>
+</h1>
+<br>
+
+<ul id="social-links" style="text-align:center">
   
-    <h2>机会从来只留给有准备的人</h2>
   
-  <div class="clear"></div>
-</hgroup>
+  
+  
+  
+  
+  
+  
+</ul>
+
+
+<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
+<ul id="nav">
+	<li id="ajax"><a href="/index.html">Home</a></li>
+	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
+    <li><a href="/atom.xml">RSS</a></li>
+    
+    <li>
+    <div id="dark">
+        <form method="get" action="/search.html" id="search">
+            <input name="query" type="text" placeholder="Search..." x-webkit-speech />
+        </form>
+    </div>
+    </li>
+        
+</ul>
+
+
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:sinber.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2013/01/11/linux-learning-map/">嵌入式Linux操作系统学习规划</a></h1>
-      
-    
-    
-      <p class="meta">
+<div id="toload">
+<!-- begin toload --> 
+    <div id="content" class="inner">
         
 
 
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/linux-learning-map/">
+		
+			嵌入式Linux操作系统学习规划</a>
+	</h2>
+    <div class="entry-content">
+    <div class="meta">
+      <div class="date">Published on: 
+
+
 
 
 
@@ -98,14 +103,12 @@
   
 
 
-<time datetime="2013-01-11T18:33:00+08:00" pubdate data-updated="true">Jan 11<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2013-01-11T18:33:00+08:00" pubdate data-updated="true">Jan 11<span>th</span>, 2013</time></div>
+      <div class="tags">Tags: 
 
-
-  <div class="entry-content"><p>ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标：</p>
+</div>
+    </div>
+		<p>ARM+LINUX路线，主攻嵌入式Linux操作系统及其上应用软件开发目标：</p>
 
 <p>（1） 掌握主流嵌入式微处理器的结构与原理（初步定为arm9）
 （2） 必须掌握一个嵌入式操作系统 （初步定为uclinux或linux,版本待定）
@@ -125,122 +128,29 @@
 （3）有少数公司经常要硕士以上的人搞嵌入式，主要是基于嵌入式的难度。但大多数公司也并无此要求，只要有经验即可。
 （4）平台依托强，换平台比较辛苦。</p>
 
-<p>兴趣的由来：</p>
 
-<p>1、成功观念不同，不虚度此生，就是我的成功。
-2、喜欢思考，挑战逻辑思维。
-3、喜欢C  C是一种能发挥思维极限的语言。关于C的精神的一些方面可以被概述成短句如下：
-相信程序员。
-不要阻止程序员做那些需要去做的。
-保持语言短小精干。
-一种方法做一个操作。
-使得它运行的够快，尽管它并不能保证将是可移植的。
-4、喜欢底层开发，讨厌vb类开发工具（并不是说vb不好）。
-5、发展前景好，适合创业，不想自己要死了的时候还是一个工程师。</p>
+		
+		<a href="/blog/linux-learning-map/" class="more-link">Read on &rarr;</a>
+	</div>
 
-<p>方法步骤：</p>
-
-<p>1、基础知识：</p>
-
-<p>目的：能看懂硬件工作原理，但重点在嵌入式软件，特别是操作系统级软件，那将是我的优势。
-科目：数字电路、计算机组成原理、嵌入式微处理器结构。
-汇编语言、C/C++、编译原理、离散数学。
-数据结构和算法、操作系统、软件工程、网络、数据库。
-方法：虽科目众多，但都是较简单的基础，且大部分已掌握。不一定全学，可根据需要选修。
-主攻书籍：the c++ programming language（一直没时间读）、数据结构-C2。</p>
-
-<p>2、学习linux：</p>
-
-<p>目的：深入掌握linux系统。
-方法：使用linux—〉linxu系统编程开发—〉驱动开发和分析linux内核。先看深，那主讲原理。看几遍后，看情景分析，对照深看，两本交叉，深是纲，情是目。剖析则是0.11版，适合学习。最后深入代码。
-主攻书籍：linux内核完全剖析、unix环境高级编程、深入理解linux内核、情景分析和源代。</p>
-
-<p>3、学习嵌入式linux：</p>
-
-<p>目的：掌握嵌入式处理器其及系统。
-方法：（1）嵌入式微处理器结构与应用：直接arm原理及汇编即可，不要重复x86。
-（2）嵌入式操作系统类：ucOS/II简单，开源，可供入门。而后深入研究uClinux。
-（3）必须有块开发板（arm9以上），有条件可参加培训（进步快，能认识些朋友）。
-主攻书籍：毛德操的《嵌入式系统》及其他arm9手册与arm汇编指令等。</p>
-
-<p>4、深入学习：</p>
-
-<p>A、数字图像压缩技术：主要是应掌握MPEG、mp3等编解码算法和技术。
-B、通信协议及编程技术：TCP/IP协议、802.11，Bluetooth，GPRS、GSM、CDMA等。
-C、网络与信息安全技术：如加密技术，数字证书CA等。
-D、DSP技术：Digital Signal Process，DSP处理器通过硬件实现数字信号处理算法。</p>
-
-<p>说明：太多细节未说明，可根据实际情况调整。重点在于1、3，不必完全按照顺序作。对于学习c++，理由是c++不只是一种语言，一种工具，她还是一种艺术，一种文化，一种哲学理念、但不是拿来炫耀得东西。对于linux内核，学习编程，读一些优秀代码也是有必要的。</p>
-
-<p>注意：　要学会举一反多，有强大的基础，很多东西简单看看就能会。想成为合格的程序员，前提是必须熟练至少一种编程语言，并具有良好的逻辑思维。一定要理论结合实践。
-不要一味钻研技术，虽然挤出时间是很难做到的，但还是要留点余地去完善其他的爱好，比如宇宙，素描、机械、管理，心理学、游戏、科幻电影。还有一些不愿意做但必须要做的！
-技术是通过编程编程在编程编出来的。永远不要梦想一步登天，不要做浮躁的人，不要觉得路途漫上。而是要编程编程在编程，完了在编程，在编程！等机会来了在创业（不要相信有奇迹发生，盲目创业很难成功，即便成功了发展空间也不一定很大）。</p>
-
-<p>嵌入式书籍推荐</p>
-
-<p>Linux基础</p>
-
-<p>1、《Linux与Unix Shell 编程指南》</p>
-
-<p>C语言基础</p>
-
-<p>1、《C Primer Plus，5th Edition》【美】Stephen Prata着
-2、《The C Programming Language, 2nd Edition》【美】Brian W. Kernighan David M. Rithie（K &amp; R）着
-3、《Advanced Programming in the UNIX Environment，2nd Edition》（APUE）
-4、《嵌入式Linux应用程序开发详解》</p>
-
-<p>Linux内核</p>
-
-<p>1、《深入理解Linux内核》（第三版）
-2、《Linux内核源代码情景分析》毛德操 胡希明着</p>
-
-<p>研发方向</p>
-
-<p>1、《UNIX Network Programming》（UNP）
-2、《TCP/IP详解》
-3、《Linux内核编程》
-4、《Linux设备驱动开发》（LDD）</p>
-
-<p>硬件基础</p>
-
-<p>1、《ARM体系结构与编程》杜春雷着
-2、S3C2410 Datasheet</p>
-
-<p>英语基础</p>
-
-<p>1、《计算机与通信专业英语》</p>
-
-<p>系统教程</p>
-
-<p>1、《嵌入式系统――体系结构、编程与设计》
-2、《嵌入式系统――采用公开源代码和StrongARM/Xscale处理器》毛德操 胡希明着
-3、《Building Embedded Linux Systems》</p>
-
-<p>理论基础</p>
-
-<p>1、《算法导论》
-2、《数据结构（C语言版）》</p>
-
-<p>原文：<a href="http://www.openxid.com/?p=2040">http://www.openxid.com/?p=2040</a></p>
+<div class="meta">
+	
+		<span class="comments"><a href="/blog/linux-learning-map//index.html#disqus_thread">Comments</a></span>
+	
 </div>
-  
-  
+</article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2013/01/10/blog-start/">新的一年开始写博客</a></h1>
-      
-    
-    
-      <p class="meta">
-        
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/blog-start/">
+		
+			新的一年开始写博客</a>
+	</h2>
+    <div class="entry-content">
+    <div class="meta">
+      <div class="date">Published on: 
 
 
 
@@ -252,14 +162,16 @@ D、DSP技术：Digital Signal Process，DSP处理器通过硬件实现数字信
   
 
 
-<time datetime="2013-01-10T18:50:00+08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2013-01-10T18:50:00+08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time></div>
+      <div class="tags">Tags: 
 
 
-  <div class="entry-content"><p>说来惭愧，工作三年多写的博客少之又少，以后要多写多记录了，下面作为在github上的第一篇博客，记录的是利用Octopress在github上创建博客站点的全过程。</p>
+	<a class='category' href='/blog/categories/blog/'>blog</a>
+
+
+</div>
+    </div>
+		<p>说来惭愧，工作三年多写的博客少之又少，以后要多写多记录了，下面作为在github上的第一篇博客，记录的是利用Octopress在github上创建博客站点的全过程。</p>
 
 <h2>一、操作步骤</h2>
 
@@ -277,144 +189,70 @@ $bundle install   //安装相关的gem包
 $rake install    //生成相应的模板
 </code></pre>
 
-<p>4.创建你的第一篇博客：</p>
 
-<pre><code>$rake setup_github_pages    //配置github项目地址
-//输入你的git源 git://github.com/username/username.github.com.git
+		
+		<a href="/blog/blog-start/" class="more-link">Read on &rarr;</a>
+	</div>
 
-$rake new_post["我的博客"]   //建立新文章，文章存放在source/_post里面，格式为Markdown的
-</code></pre>
-
-<p>然后使用你熟悉的文本编辑器打开Markdown格式的文件，这里推荐使用Sublime Text 2，通过安装MarkdownEditing插件可以很方便的编辑Markdown文件。具体安装配置步骤<a href="http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/">参考这里</a></p>
-
-<p>5.编辑完成后先在本地预览，没问题的话就可以发布到github上了</p>
-
-<pre><code>$rake preview  //开启站点预览，动态生成， http://127.0.0.1:4000
-$rake generate  //生成静态文件
-$rake gen_deploy  //生成静态并部署到github
-</code></pre>
-
-<p>6.最后别忘了将代码提交到github上备份</p>
-
-<pre><code>$git add .
-$git commit -m "保存source文件夹，文章源文件"
-$git push origin source   //建立sourch分支并保存
-</code></pre>
-
-<p>7.然后就可以在浏览器输入你的github博客地址http://username.github.com访问你刚发表的博客了</p>
-
-<h2>二、优化提高</h2>
-
-<p>1.添加评论功能</p>
-
-<p>作为博客站点如果缺少了与读者的交互那就没有意义了，这里我们可以借助第三方社会化评论工具，可参考博文<a href="http://hswg.info/blog/2013/01/09/using-social-comment/">在Otcopress使用社会化评论</a>，这里我也采用了博主使用的“多说”。</p>
-
-<p>添加方法很简单，首先到多说网站上注册账户，然后在source/_includes/post/sharing.html文件末尾添加网站上提供的一段代码既可，具体效果见本文下方。</p>
-
-<p>2.添加统计工具</p>
-
-<p>Otcopress本身提供了Google Analytics统计工具，只需要在_config.yml中找到google_analytics_tracking_id这一项，填写你的id既可</p>
-
-<pre><code># Google Analytics
-google_analytics_tracking_id: 这里填写你的id
-</code></pre>
-
-<p>当然也可以使用第三方统计工具，本博使用的是clustrmaps，添加方法也很简单，首先是到clustrmaps网站注册账户，然后获取网站提供的代码，在source/<em>includes/asides/目录下新建一个html文件，命名为clustrmaps.html，然后在</em>config.yml中找到default_asides配置项，在末尾添加asides/clustrmaps.html即可</p>
-
-<pre><code>default_asides: [asides/recent_posts.html, ..., asides/clustrmaps.html]
-</code></pre>
-
-<p>效果如本博右侧所示。</p>
-
-<p>3.修改默认模板的CSS样式</p>
-
-<p>默认的css样式是在source/stylesheets/screen.css，打开这个css文件，在Firefox下配合firebug可以很方便的修改调试成你喜欢的样式。</p>
-
-<h2>三、后记</h2>
-
-<p>1.github虽然没有流量限制，但默认的每个repo的大小为300M，所以尽量少使用图片，视频等多媒体文件。</p>
-
-<p>2.在你写博客之前，最好先抽几分钟时间了解下<a href="http://markdown.tw/">markdown的语法</a>，以便写出更美观的博文。</p>
-
-<p>3.本文参考了一些博文，在文中均有提到，在此向各位博主致谢。</p>
-
-<p>4.有任何问题欢迎指正，或者在下面的评论中留言交流。</p>
-
-<p>参考博文：
-1.<a href="http://voodeng.com/blog/2012/09/02/octopress-on-github/">Github Page 上使用 Octopress http://voodeng.com/blog/2012/09/02/octopress-on-github/</a></p>
+<div class="meta">
+	
+		<span class="comments"><a href="/blog/blog-start//index.html#disqus_thread">Comments</a></span>
+	
 </div>
-  
-  
+</article>
 
-
-    </article>
-  
-  <div class="pagination">
+<nav id="pagenavi">
     
-    <a href="/blog/archives">Blog Archives</a>
     
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/01/11/linux-learning-map/">嵌入式Linux操作系统学习规划</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/01/10/blog-start/">新的一年开始写博客</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-<section>
-<div id="clustrmaps-widget"></div>
-<script type="text/javascript">
-	var _clustrmaps = {'url' : 'http://sinber.github.com', 'user' : 1071743, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2013-01-11', 'lang' : 'zh', 'corners' : 'square' };
-	(function (){ 
-		var s = document.createElement('script'); 
-		s.type = 'text/javascript'; 
-		s.async = true; 
-		s.src = 'http://www4.clustrmaps.com/counter/map.js'; 
-		var x = document.getElementsByTagName('script')[0]; 
-		x.parentNode.insertBefore(s, x);})();
-	</script>
-	<noscript>
-		<a href="http://www4.clustrmaps.com/user/bb9105a7f">
-			<img src="http://www4.clustrmaps.com/stats/maps-no_clusters/sinber.github.com-thumb.jpg" alt="Locations of visitors to this page" /></a>
-		</noscript>
-</section>
-  
-</aside>
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav>
 
     </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - sinber -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
+    <footer id="footer">
+    <div style="display:inline">
+    Copyright &copy; 2013
 
-</footer>
-  
-
-
+    sinber
+. Powered by <a href="http://octopress.org">Octopress</a> | 
+    Theme <a href="http://github.com/panks/fabric">fabric</a> by <a href="http://panks.me">Pankaj Kumar</a>
+</div>
 
 
+    </footer>
+    <script src="/javascripts/fabric.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'sinber';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
 
 
-
-
+<!-- end toload --> 
+</div>
+</div>
+<script src="/javascripts/jquery.ui.totop.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){$().UItoTop({easingType:'easeOutCirc'});})(jQuery); 
+/*]]>*/
+</script><!-- remove it to remove the scroll to top button -->
 </body>
 </html>

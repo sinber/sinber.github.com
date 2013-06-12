@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Sinber's Blog]]></title>
   <link href="http://sinber.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://sinber.github.com/"/>
-  <updated>2013-06-11T18:11:26+08:00</updated>
+  <updated>2013-06-12T11:13:07+08:00</updated>
   <id>http://sinber.github.com/</id>
   <author>
     <name><![CDATA[sinber]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[新的一年开始写博客]]></title>
-    <link href="http://sinber.github.com/blog/2013/01/10/blog-start/"/>
+    <link href="http://sinber.github.com/blog/blog-start/"/>
     <updated>2013-01-10T18:50:00+08:00</updated>
-    <id>http://sinber.github.com/blog/2013/01/10/blog-start</id>
+    <id>http://sinber.github.com/blog/blog-start</id>
     <content type="html"><![CDATA[<p>说来惭愧，工作三年多写的博客少之又少，以后要多写多记录了，下面作为在github上的第一篇博客，记录的是利用Octopress在github上创建博客站点的全过程。</p>
 
 <h2>一、操作步骤</h2>
@@ -35,6 +35,9 @@ $cd ~/Ruby/user-id.github.com
 $bundle install   //安装相关的gem包
 $rake install    //生成相应的模板
 </code></pre>
+
+<!--more-->
+
 
 <p>4.创建你的第一篇博客：</p>
 
